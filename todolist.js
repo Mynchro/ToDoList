@@ -23,5 +23,3 @@ function addtodo() {
 function deletetodo() {
   document.getElementById("todolist").innerHTML = "";
 }
-/*  */
-/* document.getElementById("clearbutton").addEventListener("click", clear); */
