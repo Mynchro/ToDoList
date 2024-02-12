@@ -17,12 +17,11 @@ function addtodo() {
   todofield.value = "";
 }
 
-/*Neue Funktion, die einen Button erstellt,
-der die liste wieder leert*/
-
-function clear() {
-  console.log("hallo");
-  /* document.getElementById("todolist").innerHTML = ""; */
+/* /*Neue Funktion, die einen Button erstellt, */
+/* der die liste wieder leert*/
+/*  */
+function deletetodo() {
+  document.getElementById("todolist").innerHTML = "";
 }
-
+/*  */
 /* document.getElementById("clearbutton").addEventListener("click", clear); */
